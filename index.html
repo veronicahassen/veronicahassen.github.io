@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal con mis habilidades, proyectos y experiencia">
+    <meta name="author" content="Tu Nombre">
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Verónica Hassen</title>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="container header-content">
+            <h1>Verónica Hassen</h1>
+            <p>ESL Teacher and Software Developer</p>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <!-- Sección de perfil -->
+        <section id="perfil" class="profile">
+            <!-- Imagen personal o representativa -->
+            <img src="images/profile.jpg" alt="Mi foto de perfil" class="profile-img">
+            <h2>About me</h2>
+            <p class="text-center">I'm a highly motivated teacher with over 20 years of experience providing high-level support to executives through BE training beyond the book. I'm considered by my peers a person of constant growth, currently studying Software Development to make a career shift after falling in love with the IT world and doing successfully many courses in the field. I possess exceptional communication and interpersonal skills with a proven ability to work independently and as part of a team. I have strong organizational and time management skills, I'm detail-oriented and able to handle multiple tasks simultaneously. Last, but not least, I'm a fast learner.</p>
+            <!-- Enlace a redes sociales o portafolio externo -->
+            <p class="text-center mb-2">
+                <a href="https://github.com/veronicahassen" target="_blank">GitHub</a> | 
+                <a href="https://linkedin.com/in/veronicahassen" target="_blank">LinkedIn</a> | 
+                <a href="mailto:veronicahassen@gmail.com">Email</a>
+            </p>
+        </section>
+
+        <!-- Sección de habilidades -->
+        <section id="habilidades">
+            <h2 class="text-center">My skills</h2>
+            
+            <div class="skills-container">
+                <div class="skills-category skills-category-expanded">
+                    <div class="skills-grid skills-grid-expanded">
+                        <div class="skill-item">
+                            <i class="fas fa-language"></i>
+                            <p>English - C2</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <p>Moodle</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <p>MS Office 365</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-google"></i>
+                            <p>GSuite</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <p>Graphic Design</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-film"></i>
+                            <p>Video/Audio Edit</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <p>Figma</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <p>VSC</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <p>Git</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <section id="proyectos">
+            <h2 class="text-center">My Projects</h2>
+            
+            <div class="projects-container">
+                <article class="project">
+                    <h3>Clinica SePrice | Webpage</h3>
+                    <p>The project consisted in creating a website with a funcioning database for a clinic. We used html, css and JavaScript for developing the front end, and used python with the Django framework for the backend together with MySQL. The results were as expected and the client was satisfied.</p>
+                    <a href="https://github.com/veronicahassen/clinica">Github Repo</a>
+                </article>
+            <br><br>    
+                <article class="project">
+                    <h3>Queens of the Court Club | Mobile App</h3>
+                    <p>This project was to create an app for the sports club for both client access and administration. We developed it using Figma, Android Studio and Kotlin.</p>
+                    <a href="https://github.com/danielaHomobono/AndroidClubDeportivo">Github Repo</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de contacto con formulario -->
+        <section id="contacto">
+            <h2 class="text-center">Contact</h2>
+            <p class="text-center mb-2">Interested in working together? Fill the form below and I'll contact you shortly.</p>
+            
+            <!-- Formulario de contacto -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Name:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="apellido">Last name:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">WhatsApp Number:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Verónica Hassen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 
+        Comentario 1: Este portafolio es una primera versión y planeo mejorar la sección de proyectos
+        añadiendo imágenes de cada proyecto y más detalles técnicos.
+    -->
+    <!-- 
+        Comentario 2: El formulario de contacto no está conectado a un backend, pero planeo usar
+        un servicio como Formspree o similar para manejar los envíos.
+    -->
+
+</body>
+</html>
