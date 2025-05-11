@@ -20,7 +20,7 @@ Este proyecto es un portafolio personal desarrollado con HTML5 y CSS3 como parte
 
 ### HTML
 - Uso de etiquetas básicas: `<head>`, `<meta>`, `<title>`, `<link>`, `<body>`, `<h1>`, `<p>`, `<a>`, `<img>`
-- Implementación de tabla con `<table>` para mostrar tecnologías y hobbies
+- Implementación de tabla con `<table>` para mostrar habilidades
 - Formulario de contacto con `<form>` que incluye campos para nombre, apellido, email, teléfono y botón de envío
 - Uso de etiquetas semánticas de HTML5: `<main>`, `<article>`, `<section>`, `<header>`, `<footer>`
 - Elementos en bloque y en línea correctamente implementados
@@ -37,7 +37,6 @@ Este proyecto es un portafolio personal desarrollado con HTML5 y CSS3 como parte
 
 - Implementar funcionalidad real al formulario con JavaScript y backend
 - Añadir más proyectos con imágenes y descripciones detalladas
-- Mejorar la accesibilidad con atributos ARIA
 - Optimizar imágenes para mejorar el rendimiento
 
 ## Instrucciones para Visualizar
@@ -48,4 +47,4 @@ Este proyecto es un portafolio personal desarrollado con HTML5 y CSS3 como parte
 
 ---
 
-Desarrollado por [Tu Nombre] - 2023
+Desarrollado por Veronica Hassen - 2025
