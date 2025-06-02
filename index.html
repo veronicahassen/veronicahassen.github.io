@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio personal con mis habilidades, proyectos y experiencia">
-    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Portafolio personal de Verónica Hassen - Desarrolladora web y profesora de inglés">
+    <meta name="author" content="Verónica Hassen">
     <!-- Enlace al archivo CSS externo -->
     <link rel="stylesheet" href="styles.css">
     <!-- Fuente de Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Verónica Hassen</title>
+    <title>Verónica Hassen | Portfolio</title>
 </head>
 <body>
     <!-- Encabezado de la página -->
     <header>
         <div class="container header-content">
             <h1>Verónica Hassen</h1>
-            <p>ESL Teacher and Software Developer</p>
+            <p>ESL Teacher & Software Developer</p>
+            <!-- Navegación con lista -->
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#perfil">About Me</a></li>
+                    <li><a href="#servicios">Services</a></li>
+                    <li><a href="#habilidades">Skills</a></li>
+                    <li><a href="#proyectos">Projects</a></li>
+                    <li><a href="#contacto">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -26,83 +36,81 @@
     <main class="container">
         <!-- Sección de perfil -->
         <section id="perfil" class="profile">
-            <!-- Imagen personal -->
-            <img src="images/profile.jpg" alt="Mi foto de perfil" class="profile-img">
-            <h2>About me</h2>
-            <p class="text-center">I'm a highly motivated teacher with over 20 years of experience providing high-level support to executives through BE training beyond the book using the Moodle platform to boost the learning experience. I'm considered by my peers a person of constant growth, currently studying Software Development to make a career shift to be part of the IT world. I possess great communication and interpersonal skills with a proven ability to work independently and as part of a team. I have strong organizational and time management skills, I'm detail-oriented and able to handle multiple tasks simultaneously.</p>
-            <!-- Enlace a redes sociales -->
-            <p class="text-center mb-2">
-                <a href="https://github.com/veronicahassen" target="_blank">GitHub</a> | 
-                <a href="https://linkedin.com/in/veronicahassen" target="_blank">LinkedIn</a> | 
-                <a href="mailto:veronicahassen@gmail.com">Email</a>
-            </p>
+            <div class="profile-content">
+                <!-- Imagen personal -->
+                <img src="images/profile.jpg" alt="Mi foto de perfil" class="profile-img">
+                <div class="profile-text">
+                    <h2>About me</h2>
+                    <p>I'm a dedicated professional making a purposeful transition into the cloud computing space, backed by over 20 years of experience as a Business English trainer supporting executives with high-impact, tech-enabled learning solutions. My background in education has equipped me with exceptional communication, organization, and problem-solving skills—qualities I now bring into the world of cloud development.</p>
+                    <p>Driven by a passion for technology and design, I'm currently studying Software Development with a strong focus on cloud computing. I'm learning to build scalable, efficient solutions using modern cloud platforms and tools. My goal is to contribute to dynamic, forward-thinking teams by developing reliable, high-performance applications that meet real business needs.</p>
+                    <p>In addition to my technical skills, I'm fluent in English and Spanish, which allows me to collaborate effectively in diverse environments. I thrive in collaborative environments, take initiative, and bring a strong attention to detail. With a proven ability to learn quickly, adapt, and manage complex tasks, I'm excited to bring value to organizations leveraging the cloud to innovate and grow.</p>
+                    <!-- Enlace a redes sociales -->
+                    <div class="social-links">
+                        <a href="https://github.com/veronicahassen" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/veronicahassen" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="mailto:veronicahassen@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de servicios -->
+        <section id="servicios" class="services">
+            <h2 class="text-center">What I Do</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>English Teaching</h3>
+                    <p>Specialized in Business English for executives with personalized learning paths and practical communication skills.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Creation of responsive and modern websites using the latest technologies and best practices.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App Development</h3>
+                    <p>Design and development of mobile applications with intuitive interfaces and optimal performance.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Creation of visual content for digital and print media with a focus on brand identity.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Sección de habilidades -->
         <section id="habilidades">
-            <h2 class="text-center">My skills</h2>
-            
-            <div class="skills-container">
-                <div class="skills-category skills-category-expanded">
-                    <div class="skills-grid skills-grid-expanded">
-                        <div class="skill-item">
-                            <i class="fas fa-language"></i>
-                            <p>English - C2</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <p>Moodle</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-microsoft"></i>
-                            <p>MS Office 365</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-google"></i>
-                            <p>GSuite</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-palette"></i>
-                            <p>Graphic Design</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-film"></i>
-                            <p>Video/Audio Edit</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <p>Python</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-figma"></i>
-                            <p>Figma</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <p>VSC</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <p>HTML5</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt"></i>
-                            <p>CSS3</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js"></i>
-                            <p>JavaScript</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-git-alt"></i>
-                            <p>Git</p>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-github"></i>
-                            <p>GitHub</p>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="text-center">Technologies I Work With</h2>
+            <div class="table-container">
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Languages</th>
+                            <th>Tools</th>
+                            <th>Cloud</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5, CSS3</td>
+                            <td>Git</td>
+                            <td>AWS S3, EC2</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Docker, Kubernetes</td>
+                            <td>AWS Lambda</td>
+                        </tr>
+                        <tr>
+                            <td>Python, Django</td>
+                            <td>Figma</td>
+                            <td>AWS Dynamo DB</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -112,15 +120,43 @@
             
             <div class="projects-container">
                 <article class="project">
-                    <h3>Clinica SePrice | Webpage</h3>
-                    <p>The project consisted in creating a website with a funcioning database for a clinic. We used html, css and JavaScript for developing the front end, and used python with the Django framework for the backend together with MySQL. The results were as expected and the client was satisfied.</p>
-                    <a href="https://github.com/veronicahassen/clinica">Github Repo</a>
+                    <div class="project-image-container">
+                        <img src="images/project1.png" alt="Clinica SePrice Project" class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/veronicahassen/clinica" class="overlay-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Clinica SePrice | Webpage</h3>
+                        <p>The project consisted in creating a website with a functioning database for a clinic. We used HTML, CSS and JavaScript for developing the front end, and used Python with the Django framework for the backend together with MySQL. The results were as expected and the client was satisfied.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                        </div>
+                        <a href="https://github.com/veronicahassen/clinica" class="project-link"><i class="fab fa-github"></i> Github Repo</a>
+                    </div>
                 </article>
-            <br><br>    
+                
                 <article class="project">
-                    <h3>Queens of the Court Club | Mobile App</h3>
-                    <p>This project was to create an app for the sports club for both client access and administration. We developed it using Figma, Android Studio and Kotlin.</p>
-                    <a href="https://github.com/danielaHomobono/AndroidClubDeportivo">Github Repo</a>
+                    <div class="project-image-container">
+                        <img src="images/project2.png" alt="Queens of the Court Club App" class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/danielaHomobono/AndroidClubDeportivo" class="overlay-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Queens of the Court Club | Mobile App</h3>
+                        <p>This project was to create an app for a sports club for both client access and administration. We developed it using Figma for the design, Android Studio and Kotlin for the implementation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Android Studio</span>
+                            <span class="tech-tag">Kotlin</span>
+                        </div>
+                        <a href="https://github.com/danielaHomobono/AndroidClubDeportivo" class="project-link"><i class="fab fa-github"></i> Github Repo</a>
+                    </div>
                 </article>
             </div>
         </section>
@@ -128,7 +164,7 @@
         <!-- Sección de contacto con formulario -->
         <section id="contacto">
             <h2 class="text-center">Contact</h2>
-            <p class="text-center mb-2">Interested in working together? Fill the form below and I'll contact you shortly.</p>
+            <p class="text-center">Interested in working together? Fill the form below and I'll contact you shortly.</p>
             
             <!-- Formulario de contacto -->
             <form class="contact-form">
@@ -152,7 +188,7 @@
                     <input type="tel" id="telefono" name="telefono">
                 </div>
                 
-                <button type="submit" class="submit-btn">Submit</button>
+                <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
             </form>
         </section>
     </main>
@@ -163,15 +199,5 @@
             <p>&copy; 2025 Verónica Hassen. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- 
-        Comentario 1: Este portafolio es una primera versión y planeo mejorar la sección de proyectos
-        añadiendo imágenes de cada proyecto y más detalles técnicos.
-    -->
-    <!-- 
-        Comentario 2: El formulario de contacto no está conectado a un backend, pero planeo usar
-        un servicio como Formspree o similar para manejar los envíos.
-    -->
-
 </body>
 </html>
