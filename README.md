@@ -2,8 +2,6 @@
 
 Este proyecto es un portafolio personal desarrollado con HTML5 y CSS3 como parte de un ejercicio práctico para mostrar mis habilidades y proyectos.
 
-![Vista previa del portafolio](images/Logo V software developer.png)
-
 ## Características
 
 - Diseño responsivo que se adapta a diferentes tamaños de pantalla (desktop, tablet y móvil)
@@ -72,4 +70,3 @@ Este proyecto es un portafolio personal desarrollado con HTML5 y CSS3 como parte
 ---
 
 Desarrollado por Verónica Hassen - 2025
-Realizado para la materia de desarrollo Front End
